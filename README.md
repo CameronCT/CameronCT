@@ -1,4 +1,4 @@
-### Hi there
+### Hi there, I am a:
 * 💻 Website Developer
 * 🎮 Professional Esports Player
 * 📺 Twitch Partner
