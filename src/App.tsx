@@ -13,6 +13,7 @@ function App() {
                     <Route path={'/portfolio'} component={() => <Main page={"Portfolio"} /> } />
                     <Route path={'/typing'} component={() => <Main page={"Typing"} /> } />
                     <Route path={'/esports'} component={() => <Main page={"Esports"} /> } />
+                    <Route component={() => <Main page={"404"} /> } />
                 </Switch>
             </BrowserRouter>
         </div>

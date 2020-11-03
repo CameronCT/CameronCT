@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Typing from "./pages/Typing";
 import Portfolio from "./pages/Portfolio";
 import Esports from "./pages/Esports";
+import ErrorNotFound from "./pages/ErrorNotFound";
 
 interface IProps {
     page?: string;
@@ -25,6 +26,9 @@ class Main extends Component<IProps> {
                 break;
             case 'Esports':
                 pageContent = <Esports />;
+                break;
+            case '404':
+                pageContent = <ErrorNotFound />;
                 break;
             default:
                 pageContent = <Home />;
