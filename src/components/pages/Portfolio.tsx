@@ -86,16 +86,14 @@ class Portfolio extends Component {
             'name': 'TypeRacer Themes',
             'time': 'January 2017 - June 2017',
             'about': 'Created themes for TypeRacer using Google Chrome Extension "Stylish" using CSS.',
-            'statistics': [
-                '3,000+ downloads'
-            ],
+            'technology': 'HTML, CSS'
         },
         {
             'img': 'ezphp.png',
             'url': 'https://github.com/CameronCT/ezPHP',
             'name': 'ezPHP',
             'time': 'December 2016',
-            'about': 'A template engine heavily inspired by SmartyPHP that offers a more efficient way of moderating the flow of templating.',
+            'about': 'A custom template engine heavily inspired by Smarty utilizing PHTML files.',
             'technology': 'PHP'
         },
     ];
