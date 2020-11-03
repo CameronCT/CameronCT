@@ -12,11 +12,11 @@ class PortfolioCard extends Component<PortfolioData> {
                         <div className={"w-full mr-auto pr-2"}>
                             <a href={url} className={"text-base font-semibold text-black hover:text-gray-800"}>{name}</a>
                             <div className={"text-xs text-gray-700"}>{type && `${type} | `}{time}</div>
-                            <div className={"mt-3 text-xs text-gray-800"}>
+                            <div className={"mt-3 text-sm text-gray-800"}>
                                 {about}
                             </div>
                             {statistics && (
-                                <div className={"mt-3 text-xs text-gray-800"}>
+                                <div className={"mt-3 text-sm text-gray-800"}>
                                     <div className={"text-gray-900"}>Statistics</div>
                                     <ul className={"list-disc pl-6 text-gray-700"}>
                                         {statistics.map((stat) => (
@@ -28,7 +28,7 @@ class PortfolioCard extends Component<PortfolioData> {
                                 </div>
                             )}
                             {releases && (
-                                <div className={"mt-3 text-xs text-gray-800"}>
+                                <div className={"mt-3 text-sm text-gray-800"}>
                                     <div className={"text-gray-900"}>Release</div>
                                     <ul className={"list-disc pl-6 text-gray-700"}>
                                         <li>
@@ -40,7 +40,7 @@ class PortfolioCard extends Component<PortfolioData> {
                                     </ul>
                                 </div>
                             )}
-                            <div className={"mt-3 text-xs font-medium text-gray-800"}>
+                            <div className={"mt-3 text-sm font-medium text-gray-800"}>
                                 {technology}
                             </div>
                         </div>
