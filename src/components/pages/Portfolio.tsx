@@ -31,7 +31,7 @@ class Portfolio extends Component {
                 'Beta': 'November 22nd, 2020',
                 'Full': 'Q1 2021'
             },
-            'technology': 'Nginx, Git, Trello, React, Node, TypeScript & MariaDB'
+            'technology': 'Nginx, Git, Trello, React, TypeScript, Node & MariaDB'
         },
         {
             'img': 'qrindr.png',
@@ -45,7 +45,7 @@ class Portfolio extends Component {
                 '10,000+ matches',
                 '40,000+ views'
             ],
-            'technology': 'Nginx, Git, React, Tailwind, MariaDB & PHP'
+            'technology': 'Nginx, Git, React, TypeScript, Tailwind, MariaDB & PHP'
         },
         {
             'img': 'metajolt.png',
