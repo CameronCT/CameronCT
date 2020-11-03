@@ -6,7 +6,7 @@ import Main from "./components/Main";
 function App() {
   return (
     <div className="App">
-        <div className={"max-w-screen-xl mx-auto px-6 sm:py-8 lg:py-16"}>
+        <div className={"max-w-screen-xl mx-auto px-2 lg:px-6 py-8 lg:py-16"}>
             <BrowserRouter>
                 <Switch>
                     <Route exact path={'/'} component={Main} />

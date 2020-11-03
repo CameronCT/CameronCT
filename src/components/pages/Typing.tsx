@@ -4,7 +4,7 @@ class Typing extends Component {
 
     render() {
         return (
-            <div>
+            <div className={"mx-1"}>
                 <div className={"border border-gray-300 rounded p-8 mb-6"}>
                     <div className={"text-xs text-black font-mono"}><span aria-label="dog icon" role={"img"}>🐶</span> CameronCT / TYPING.md</div>
                     <div className={"pt-4 text-sm text-black"}>

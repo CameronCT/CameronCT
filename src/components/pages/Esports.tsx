@@ -4,7 +4,7 @@ class Esports extends Component {
 
     render() {
         return (
-            <div>
+            <div className={"mx-1"}>
                 <div className={"border border-gray-300 rounded p-8 mb-6"}>
                     <div className={"text-xs text-black font-mono"}><span aria-label="dog icon" role={"img"}>🐶</span> CameronCT / ESPORTS.md</div>
                     <div className={"pt-4 text-sm text-black"}>
@@ -16,7 +16,7 @@ class Esports extends Component {
                         </div>
                         <div className={"mt-4 text-lg font-semibold"}>Quake Pro League</div>
                         <div className={"mt-2"}>
-                            In November 2019, I qualified for the Quake Pro League finals in <span className={"font-semibold"}>Lucca, Italy</span> by playing 7 qualification tournaments. From playing all 7 qualification tournaments, I ended up qualifying with <span className={"font-semibold"}>1,253 points</span> which at
+                            In November 2019, I qualified for the Quake Pro League finals in <span className={"font-semibold"}>Lucca, Italy</span> by playing 7 qualification tournaments. From playing all 7 qualification tournaments, I ended up qualifying with <span className={"font-semibold"}>1,253 points</span> which
                             was the highest points across all regions.
                         </div>
                         <div className={"mt-2"}>
