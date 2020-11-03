@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -14,20 +14,20 @@
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Cameron Touchette">
     <meta itemprop="description" content="A website developer & designer, world-level typist and professional video gamer!">
-    <meta itemprop="image" content="https://cameronct.com/assets/picture.jpg">
+    <meta itemprop="image" content="%PUBLIC_URL%/assets/picture.jpg">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://cameronct.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cameron Touchette">
     <meta property="og:description" content="A website developer & designer, world-level typist and professional video gamer!">
-    <meta property="og:image" content="https://cameronct.com/assets/picture.jpg">
+    <meta property="og:image" content="%PUBLIC_URL%/assets/picture.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cameron Touchette">
     <meta name="twitter:description" content="A website developer & designer, world-level typist and professional video gamer!">
-    <meta name="twitter:image" content="hhttps://cameronct.com/assets/picture.jpg">
+    <meta name="twitter:image" content="%PUBLIC_URL%/assets/picture.jpg">
 
     <!-- Favicon Meta -->
     <meta name="msapplication-TileColor" content="#da532c">
@@ -52,8 +52,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/assets/css/tailwind.min.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/assets/css/all.min.css" rel="stylesheet">
 
     <style>
       @media screen and (min-width: 1280px) {
@@ -62,8 +62,6 @@
         }
       }
     </style>
-
-    <title>React App</title>
   </head>
   <body style="background: #FFF;" class="font-sans">
     <noscript>You need to enable JavaScript to run this app.</noscript>
