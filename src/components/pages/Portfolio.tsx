@@ -78,7 +78,7 @@ class Portfolio extends Component {
             'name': 'House of Typing',
             'time': 'March 2017 - May 2017, August 2018 - September 2018',
             'about': 'An esports competition site showcasing the fastest touch typists from around the world!',
-            'technology': 'Nginx, Bulma, AngularJS, MySQL and PHP'
+            'technology': 'Nginx, Bulma, AngularJS, MySQL & PHP'
         },
         {
             'img': 'typeracer.png',
@@ -86,7 +86,7 @@ class Portfolio extends Component {
             'name': 'TypeRacer Themes',
             'time': 'January 2017 - June 2017',
             'about': 'Created themes for TypeRacer using Google Chrome Extension "Stylish" using CSS.',
-            'technology': 'HTML, CSS'
+            'technology': 'HTML & CSS'
         },
         {
             'img': 'ezphp.png',
