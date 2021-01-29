@@ -44,22 +44,22 @@ class Navigation extends Component<IProps> {
                 <div className={"p-2"}>
                     <div className={"flex justify-center"}>
                         <div className={"w-10 text-center"}>
-                            <a href={"mailto:contact@cameronct.com"} className={"text-purple-600 hover:text-purple-700"}>
+                            <a href={"mailto:contact@cameronct.com"} className={"text-gray-700 hover:text-blue-700"}>
                                 <i className={"text-lg fas fa-envelope"} />
                             </a>
                         </div>
                         <div className={"w-10 text-center"}>
-                            <a href={"https://twitter.com/gnikgg"} className={"text-blue-500 hover:text-blue-600"}>
+                            <a href={"https://twitter.com/gnikgg"} className={"text-gray-700 hover:text-blue-600"}>
                                 <i className={"text-lg fab fa-twitter"} />
                             </a>
                         </div>
                         <div className={"w-10 text-center"}>
-                            <a href={"https://www.linkedin.com/in/cameron-touchette-12438711a/"} className={"text-blue-600 hover:text-blue-700"}>
+                            <a href={"https://www.linkedin.com/in/cameron-touchette-12438711a/"} className={"text-gray-700 hover:text-blue-700"}>
                                 <i className={"text-lg fab fa-linkedin"} />
                             </a>
                         </div>
                         <div className={"w-10 text-center"}>
-                            <a href={"https://github.com/CameronCT"} className={"text-gray-800 hover:text-gray-900"}>
+                            <a href={"https://github.com/CameronCT"} className={"text-gray-700 hover:text-gray-900"}>
                                 <i className={"text-lg fab fa-github"} />
                             </a>
                         </div>

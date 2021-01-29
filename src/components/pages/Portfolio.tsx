@@ -19,18 +19,17 @@ class Portfolio extends Component {
 
     professional : PortfolioData[] = [
         {
-            'img': 'keyma.sh.png',
+            'img': 'keymash.svg',
             'url': 'https://keyma.sh',
             'name': 'Keyma.sh',
             'type': 'Owner / Lead Developer',
             'time': 'May 2020 - Present',
             'github': '',
-            'about': 'An online multiplayer typing website where players can go against each other from around the world.',
-
-            'releases': {
-                'Beta': 'November 22nd, 2020',
-                'Full': 'Q1 2021'
-            },
+            'about': 'An online multiplayer typing game where players can go against each other from around the world.',
+            'statistics': [
+                '400,000+ matches',
+                '25,000+ players'
+            ],
             'technology': 'Nginx, Git, Trello, React, TypeScript, Node & MariaDB'
         },
         {
