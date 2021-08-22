@@ -27,8 +27,8 @@ class Portfolio extends Component {
             'github': '',
             'about': 'An online multiplayer typing game where players can go against each other from around the world.',
             'statistics': [
-                '400,000+ matches',
-                '25,000+ players'
+                '4,000,000+ matches',
+                '85,000+ players'
             ],
             'technology': 'Nginx, Git, Trello, React, TypeScript, Node & MariaDB'
         },
