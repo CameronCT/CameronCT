@@ -2,6 +2,3 @@
     base = "website"
     publish = "out"
     command = "npm run export"
-
-[[plugins]]
-    package = "@netlify/plugin-nextjs"
