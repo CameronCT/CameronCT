@@ -1,0 +1,7 @@
+[build]
+    base = "website"
+    publish = "out"
+    command = "npm run export"
+
+[build.environment]
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"
