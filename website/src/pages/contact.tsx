@@ -12,10 +12,18 @@ const Index = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        const postFormData = new FormData();
+
+        for (const key in formData) {
+            // @ts-ignore
+            postFormData.append(key, formData[key]);
+        };
+
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData).toString(),
+            body: new URLSearchParams(postFormData as any).toString(),
         }).then((response) => {
             if (response.status === 200) 
                 setSubmit(true);
