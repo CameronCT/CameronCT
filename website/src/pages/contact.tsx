@@ -8,17 +8,15 @@ import { useState } from 'react';
 const Index = () => {
 
     const [ submit, setSubmit ] = useState<boolean>(false);
-    const [ formData, setFormData ] = useState<{ [key: string]: string }>({});
+    const [ formData, setFormData ] = useState<{ [key: string]: string }>({ 'form-name': 'contactForm' });
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         const postFormData = new FormData();
 
-        for (const key in formData) {
-            // @ts-ignore
-            postFormData.append(key, formData[key]);
-        };
+        // @ts-ignore - Process Form Data into FormData Object
+        for (const key in formData) postFormData.append(key, formData[key]);
 
         fetch("/", {
             method: "POST",
