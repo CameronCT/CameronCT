@@ -1,4 +1,0 @@
-[build]
-    base = "website"
-    publish = "out"
-    command = "npm run export"
