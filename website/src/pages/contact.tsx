@@ -47,7 +47,7 @@ const Index = () => {
                     <span className="font-semibold">If none of the above applies to you, then please feel free to contact me.</span>
                 </div>
 
-                <form id="contactForm" method="post" onSubmit={handleSubmit} className="grid grid-cols-2 gap-6" data-netlify="true">
+                <form id="contactForm" name="contactForm" method="post" onSubmit={handleSubmit} className="grid grid-cols-2 gap-6" data-netlify="true">
                     <input type="hidden" name="form-name" value="contactForm" />
                     {fields.map((item) => (
                         <>
