@@ -1,7 +1,7 @@
 [build]
     base = "website"
     publish = "out"
-    command = "npm run export"
+    command = "npm run static"
 
 [build.environment]
     NETLIFY_NEXT_PLUGIN_SKIP = "true"
