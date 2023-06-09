@@ -1,20 +1,5 @@
 export default [
     {
-        'img': 'songquiz.png',
-        'url': 'https://songquiz.io',
-        'name': 'SongQuiz',
-        'type': 'Owner / Developer',
-        'time': 'October 2021 - Present',
-        'github': '',
-        'about': 'A soon to be online multiplayer music trivia game, it is currently available but is extremely early in development.',
-        'statistics': [
-            '13,000+ songs',
-            '4,000+ artists'
-        ],
-        'technology': 'Nginx, Git, React/Next, TypeScript, Node & MongoDB',
-        'category': 0
-    },
-    {
         'img': 'keymash.svg',
         'url': 'https://keymash.io',
         'name': 'Keymash',
